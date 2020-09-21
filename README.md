@@ -14,4 +14,4 @@
 - Java 
 
 ## Deploy and Run : 
-- checkiut the code and you should be able to run it directly from Android studio
+- checkout the code and you should be able to run it directly from Android studio
