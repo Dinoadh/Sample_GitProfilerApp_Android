@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Git Profile Finder</string>
+
+    <string name="welcome_message">Search github users and check out their awesome projects.\n\n<b>Happy Coding!!</b></string>
+    <string name="sort_by">Sort</string>
+    <string name="home">Home</string>
+    <string name="search_user_hint">User name of GIT profile</string>
+    <string name="user_repositories">User Repositories</string>
+</resources>

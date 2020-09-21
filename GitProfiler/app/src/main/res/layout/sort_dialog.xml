@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_bg"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <RadioGroup
+            android:id="@+id/sorting_options"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/score_decending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="10dp"
+                android:text="Score decending" />
+
+            <RadioButton
+                android:id="@+id/score_asending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Score asending" />
+
+            <RadioButton
+                android:id="@+id/name_asending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="A-Z " />
+
+            <RadioButton
+                android:id="@+id/name_decending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Z-A" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>
